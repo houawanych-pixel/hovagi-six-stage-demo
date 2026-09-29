@@ -1,11 +1,11 @@
-HOVAGI Six Stage Mission - graybox demo v1.0 (web)
+HOVAGI Six Stage Mission - graybox demo v1.1 (web) - Stage 01 update
 source_repo: https://github.com/houawanych-pixel/chronicle-clash-mg3d
-source_branch: demo/six-stage-graybox-v1
-source_commit: 9959607583624f2c7be11064dedc23b2d992f112
+source_branch: stage01-clean-v1.1 (from demo/six-stage-graybox-v1)
+source_commit: 7cd44b6817057c03b56a5dc35eeeba515e1f9dc7
 source_path: six_stage/
-source_zip: HOVAGI_Six_Stage_Godot43_Source_v1.0.zip sha256 4ee81d6029a0469deff56f89a996669ae4adc42a7f9d0ad925527a800a752f4f (unchanged)
 export: Godot 4.3.stable.official.77dcf97d8, preset "Web" (thread_support=false, Compatibility renderer), --export-release
 packaging: six_stage/build_support/package_web.py (splits index.wasm -> engine-*.bin, index.pck -> mission-*.bin, 12 MiB chunks)
 index.wasm sha256: fe5cebc590758c10bc4469be5a591e28edbde5ec8f458f21baeb83db50d028b9 (35376909 bytes)
-index.pck sha256: f732284c778670405eb9daeedc2003f23412f454804288eb383f578442be7976 (56856960 bytes)
-built: 2026-09-27 21:56 CDT
+index.pck sha256: 91ea4306be64b87b65cead139368b8cf9fb4eb2831aeb620891680c0a1b3d688 (48791232 bytes)
+built: 2026-09-28 22:02 CDT
+changes: see six_stage/docs/stage01_clean/CHANGES.md in the source repo

@@ -1,5 +1,5 @@
 const originalFetch=window.fetch.bind(window);
-const chunks={"index.wasm": ["engine-0.bin", "engine-1.bin", "engine-2.bin"], "index.pck": ["mission-0.bin", "mission-1.bin", "mission-2.bin", "mission-3.bin", "mission-4.bin"]};
+const chunks={"index.wasm": ["engine-0.bin", "engine-1.bin", "engine-2.bin"], "index.pck": ["mission-0.bin", "mission-1.bin", "mission-2.bin", "mission-3.bin"]};
 window.fetch=async function(resource,options){
  const url=typeof resource==='string'?resource:resource.url;
  const name=new URL(url,location.href).pathname.split('/').pop();
