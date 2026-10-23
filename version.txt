@@ -1,11 +1,11 @@
-HOVAGI Six Stage Mission - graybox demo v1.3 (web) - motion-capture sneak / run for Kai
+HOVAGI Six Stage Mission - graybox demo v1.4 (web) - weapon-ready movement, pivots
 source_repo: https://github.com/houawanych-pixel/chronicle-clash-mg3d
 source_branch: hovagi-fps
-source_commit: 0ef80d0019315670e121f300be62da7da430c443
+source_commit: 404834caeca69fe3f84bd841208042c7c9fe7a91
 source_path: six_stage/
 export: Godot 4.3.stable.official.77dcf97d8, preset "Web" (thread_support=false, Compatibility renderer), --export-release
 packaging: six_stage/build_support/package_web.py (12 MiB chunks)
 index.wasm sha256: fe5cebc590758c10bc4469be5a591e28edbde5ec8f458f21baeb83db50d028b9 (35376909 bytes)
-index.pck sha256: e0a1e6df999bc51d8c6b233d5da01b51f4391b59e62d27c154d5ddd40eb5c8ec (49143040 bytes)
+index.pck sha256: 0d2f7817c9b586af9b00e2d6279defbbe3cefc828dba05cef32f81baa78ff748 (49144576 bytes)
 built: 2026-10-23 CDT
-changes: v1.3 Kai sneaks (low Metal Gear-style walk), runs and crouches with retargeted Mixamo motion capture; v1.2 first-person shooter mode
+changes: v1.4 weapon-ready run/sneak (gun held up while the legs move), eased pivots, lean into turns; v1.3 Kai sneaks (low Metal Gear-style walk), runs and crouches with retargeted Mixamo motion capture; v1.2 first-person shooter mode
