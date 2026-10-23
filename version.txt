@@ -1,11 +1,11 @@
-HOVAGI Six Stage Mission - graybox demo v1.1 (web) - Stage 01 update
+HOVAGI Six Stage Mission - graybox demo v1.2 (web) - first-person shooter mode
 source_repo: https://github.com/houawanych-pixel/chronicle-clash-mg3d
-source_branch: stage01-clean-v1.1 (from demo/six-stage-graybox-v1)
-source_commit: 7cd44b6817057c03b56a5dc35eeeba515e1f9dc7
+source_branch: hovagi-fps (from stage01-clean-v1.1)
+source_commit: ea3dedcbe718fbe1d203faad7b7f5acc95346774
 source_path: six_stage/
 export: Godot 4.3.stable.official.77dcf97d8, preset "Web" (thread_support=false, Compatibility renderer), --export-release
 packaging: six_stage/build_support/package_web.py (splits index.wasm -> engine-*.bin, index.pck -> mission-*.bin, 12 MiB chunks)
 index.wasm sha256: fe5cebc590758c10bc4469be5a591e28edbde5ec8f458f21baeb83db50d028b9 (35376909 bytes)
-index.pck sha256: 91ea4306be64b87b65cead139368b8cf9fb4eb2831aeb620891680c0a1b3d688 (48791232 bytes)
-built: 2026-09-28 22:02 CDT
-changes: see six_stage/docs/stage01_clean/CHANGES.md in the source repo
+index.pck sha256: 7cdca4b469c596d3250620b8028255827579d989effd22be6de837981aef0268 (48806512 bytes)
+built: 2026-10-23 CDT
+changes: see six_stage/docs/fps/CHANGES.md in the source repo
